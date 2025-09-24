@@ -13,7 +13,7 @@ The website includes a comprehensive tracking system that monitors user interact
 
 ### Primary Actions
 1. **Phone Clicks** (`click_tel`)
-   - Every click on phone number (052-8665271)
+   - Every click on phone number (052-8665270)
    - Tracked from: Header, footer, buttons, inline text links
    - Includes source location (header, footer, contact page, etc.)
 
@@ -67,7 +67,7 @@ The website includes a comprehensive tracking system that monitors user interact
 ### Data Collection Method
 ```javascript
 // Every trackable element has data attributes:
-<a href="tel:0528665271"
+<a href="tel:0528665270"
    data-track="click_tel"
    data-source="header">
    Call Now

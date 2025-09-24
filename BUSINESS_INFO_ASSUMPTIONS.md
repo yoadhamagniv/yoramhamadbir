@@ -9,7 +9,7 @@
 ### Basic Business Details
 - **Business Name:** יורם בירוטקר - הדברה מקצועית
 - **Owner:** יורם בירוטקר (Yoram Birotker)
-- **Phone:** 052-8665271
+- **Phone:** 052-8665270
 - **Email:** yorambirotker81@gmail.com
 - **License:** משרד להגנת הסביבה מס' 1814
 - **Professional Membership:** ארגון המדבירים הארצי

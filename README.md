@@ -120,7 +120,7 @@ googleSheetsUrl: 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE'
 
 ### שינוי פרטי קשר
 עדכן בכל הקבצים את:
-- מספר הטלפון: `052-8665271`
+- מספר הטלפון: `052-8665270`
 - כתובת המייל: `yorambirotker81@gmail.com`
 - מספר הרישיון: `1814`
 

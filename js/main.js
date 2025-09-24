@@ -19,7 +19,7 @@
         googleSheetsUrl: 'https://script.google.com/macros/s/AKfycbygehkj2P0KofTPBG47DYnaLzsQLW8DtjtfVcQFVF_35hNOiKD8O1Djd0_yAOa0XRTf/exec', // יש להחליף ב-URL האמיתי
 
         // WhatsApp Configuration
-        whatsappNumber: '972528665271',
+        whatsappNumber: '972528665270',
         whatsappMessage: 'שלום, הגעתי מהאתר ואשמח לקבל מידע על שירותי הדברה'
     };
 
