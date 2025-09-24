@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מחירי הדברה | יורם בירוטקר - טווחי מחירים לשירותי הדברה</title>
+    <meta name="description" content="טווחי מחירים לשירותי הדברה של יורם בירוטקר. מחירים שקופים לטיפול יתושים, טרמיטים, פשפש המיטה ועוד. קבל הצעת מחיר מותאמת אישית.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2><a href="index.html">יורם בירוטקר</a></h2>
+                <span class="nav__logo-subtitle">הדברה מקצועית</span>
+            </div>
+
+            <div class="business-hours-status">
+                <span id="status-indicator" class="status-indicator">
+                    <span id="status-text">בודק שעות פעילות...</span>
+                </span>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link" data-track="nav_link_click" data-page="home">דף הבית</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link" data-track="nav_link_click" data-page="services">שירותים</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="pricing.html" class="nav__link active-link" data-track="nav_link_click" data-page="pricing">מחירים</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="business.html" class="nav__link" data-track="nav_link_click" data-page="business">לעסקים</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link" data-track="nav_link_click" data-page="about">אודות</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="faq.html" class="nav__link" data-track="nav_link_click" data-page="faq">שאלות נפוצות</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link" data-track="nav_link_click" data-page="contact">יצירת קשר</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__contact">
+                <a href="tel:0528665271" class="contact-btn" data-track="click_tel" data-source="header">
+                    <span class="contact-icon">📞</span>
+                    052-8665271
+                </a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header section">
+            <div class="container">
+                <h1 class="page-header__title">טווחי מחירים</h1>
+                <p class="page-header__subtitle">מחירים שקופים ללא הפתעות - הצעת מחיר מותאמת אישית</p>
+                <div class="page-header__note">
+                    <p><strong>שים לב:</strong> המחירים המוצגים הם טווחים בלבד. המחיר הסופי נקבע לאחר בדיקה ראשונית והערכת מידת הנגיעות.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Notice -->
+        <section class="pricing-notice section">
+            <div class="container">
+                <div class="notice-card">
+                    <h2>למה אנו לא מציגים מחירים סופיים?</h2>
+                    <div class="notice-reasons">
+                        <div class="notice-reason">
+                            <div class="notice-icon">🔍</div>
+                            <h3>כל בית הוא מקרה ייחודי</h3>
+                            <p>מידת הנגיעות, גודל השטח וסוג המבנה משפיעים על המחיר הסופי</p>
+                        </div>
+                        <div class="notice-reason">
+                            <div class="notice-icon">⚖️</div>
+                            <h3>שקיפות מלאה</h3>
+                            <p>אנו מעדיפים להיות כנים ולהציג טווחים מדויקים במקום מחירים מטעים</p>
+                        </div>
+                        <div class="notice-reason">
+                            <div class="notice-icon">🎯</div>
+                            <h3>הצעה מותאמת אישית</h3>
+                            <p>לאחר בדיקה חינמית תקבל הצעת מחיר מדויקת ללא התחייבות</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Services Pricing -->
+        <section class="premium-pricing section" id="premium-services">
+            <div class="container">
+                <h2 class="section__title">השירותים המובילים שלנו</h2>
+
+                <div class="pricing-cards">
+                    <div class="pricing-card featured" id="mosquitoes">
+                        <div class="pricing-card__header">
+                            <div class="pricing-card__icon">🦟</div>
+                            <h3>הסוף ליתושים בחצר</h3>
+                            <p class="pricing-card__subtitle">תחזוקה חודשית קבועה</p>
+                        </div>
+                        <div class="pricing-card__body">
+                            <div class="pricing-card__price">
+                                <span class="price-range">₪300 - ₪600</span>
+                                <span class="price-period">לחודש</span>
+                            </div>
+                            <div class="pricing-card__features">
+                                <h4>הטיפול כולל:</h4>
+                                <ul>
+                                    <li>✓ ביקור חודשי קבוע</li>
+                                    <li>✓ חומרים מתקדמים</li>
+                                    <li>✓ כיסוי לעונה שלמה (מרץ-נובמבר)</li>
+                                    <li>✓ טיפול בכל מקורות המים</li>
+                                    <li>✓ ייעוץ למניעת התרבות</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-factors">
+                                <p><strong>המחיר תלוי ב:</strong> גודל החצר, מספר מקורות המים, מידת הנגיעות</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card__footer">
+                            <a href="tel:0528665271" class="btn btn-primary" data-track="click_tel" data-service="mosquitoes">
+                                קבל הצעת מחיר
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pricing-card" id="termites">
+                        <div class="pricing-card__header">
+                            <div class="pricing-card__icon">🏠</div>
+                            <h3>טיפול טרמיטים ייחודי</h3>
+                            <p class="pricing-card__subtitle">ללא קידוחים בבית</p>
+                        </div>
+                        <div class="pricing-card__body">
+                            <div class="pricing-card__price">
+                                <span class="price-range">₪1,200 - ₪3,000</span>
+                                <span class="price-period">חד פעמי</span>
+                            </div>
+                            <div class="pricing-card__features">
+                                <h4>הטיפול כולל:</h4>
+                                <ul>
+                                    <li>✓ בדיקה יסודית</li>
+                                    <li>✓ התקנת מערכת פתיונות</li>
+                                    <li>✓ מעקב רבעוני במשך שנה</li>
+                                    <li>✓ אחריות לשנה</li>
+                                    <li>✓ ללא נזק למבנה</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-factors">
+                                <p><strong>המחיר תלוי ב:</strong> גודל הבית, מידת הנגיעות, נגישות למקום</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card__footer">
+                            <a href="tel:0528665271" class="btn btn-primary" data-track="click_tel" data-service="termites">
+                                קבל הצעת מחיר
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pricing-card" id="bedbugs">
+                        <div class="pricing-card__header">
+                            <div class="pricing-card__icon">🛏️</div>
+                            <h3>טיפול פשפש המיטה</h3>
+                            <p class="pricing-card__subtitle">עם אחריות לטיפול המזיק</p>
+                        </div>
+                        <div class="pricing-card__body">
+                            <div class="pricing-card__price">
+                                <span class="price-range">₪800 - ₪2,500</span>
+                                <span class="price-period">לטיפול</span>
+                            </div>
+                            <div class="pricing-card__features">
+                                <h4>הטיפול כולל:</h4>
+                                <ul>
+                                    <li>✓ 2-3 ביקורים</li>
+                                    <li>✓ טיפול בחום וחומרים</li>
+                                    <li>✓ הכנת החדרים</li>
+                                    <li>✓ מעקב למשך חודשיים</li>
+                                    <li>✓ אחריות מלאה</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-factors">
+                                <p><strong>המחיר תלוי ב:</strong> מספר חדרים, מידת הנגיעות, סוג הרהיטים</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card__footer">
+                            <a href="tel:0528665271" class="btn btn-primary" data-track="click_tel" data-service="bedbugs">
+                                קבל הצעת מחיר
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pricing-card" id="fire-ants">
+                        <div class="pricing-card__header">
+                            <div class="pricing-card__icon">🐜</div>
+                            <h3>נמלת האש</h3>
+                            <p class="pricing-card__subtitle">בפתיונות ללא צורך ביציאה מהבית</p>
+                        </div>
+                        <div class="pricing-card__body">
+                            <div class="pricing-card__price">
+                                <span class="price-range">₪400 - ₪800</span>
+                                <span class="price-period">לטיפול</span>
+                            </div>
+                            <div class="pricing-card__features">
+                                <h4>הטיפול כולל:</h4>
+                                <ul>
+                                    <li>✓ איתור כל הקינים</li>
+                                    <li>✓ מיקום פתיונות מיוחדים</li>
+                                    <li>✓ בטוח לילדים ולחיות מחמד</li>
+                                    <li>✓ מעקב במשך 6 שבועות</li>
+                                    <li>✓ חיסול הקן במלואו</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-factors">
+                                <p><strong>המחיר תלוי ב:</strong> מספר קינים, גודל השטח, קושי הגישה</p>
+                            </div>
+                        </div>
+                        <div class="pricing-card__footer">
+                            <a href="tel:0528665271" class="btn btn-primary" data-track="click_tel" data-service="fire-ants">
+                                קבל הצעת מחיר
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- General Services Pricing -->
+        <section class="general-pricing section">
+            <div class="container">
+                <h2 class="section__title">שירותי הדברה כלליים</h2>
+
+                <div class="pricing-table">
+                    <div class="pricing-table__header">
+                        <h3>טווחי מחירים לשירותים נוספים</h3>
+                        <p>המחירים כוללים בדיקה ראשונית, טיפול ומעקב</p>
+                    </div>
+
+                    <div class="pricing-table__body">
+                        <div class="pricing-row">
+                            <div class="service-info">
+                                <div class="service-info__icon">🪳</div>
+                                <div>
+                                    <h4>תיקנים (אמריקאי/גרמני)</h4>
+                                    <p>טיפול יסודי כולל ג'ל ופתיונות</p>
+                                </div>
+                            </div>
+                            <div class="price-info">
+                                <span class="price-range">₪300 - ₪700</span>
+                                <span class="price-note">תלוי במידת הנגיעות</span>
+                            </div>
+                            <div class="action-info">
+                                <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="cockroaches">
+                                    הצעת מחיר
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-row">
+                            <div class="service-info">
+                                <div class="service-info__icon">🕷️</div>
+                                <div>
+                                    <h4>עכבישים</h4>
+                                    <p>הרחקה מהבית והחצר</p>
+                                </div>
+                            </div>
+                            <div class="price-info">
+                                <span class="price-range">₪250 - ₪500</span>
+                                <span class="price-note">טיפול יסודי בכל הפינות</span>
+                            </div>
+                            <div class="action-info">
+                                <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="spiders">
+                                    הצעת מחיר
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-row">
+                            <div class="service-info">
+                                <div class="service-info__icon">🐜</div>
+                                <div>
+                                    <h4>נמלים רגילות</h4>
+                                    <p>חיסול נתיבי נמלים וקינים</p>
+                                </div>
+                            </div>
+                            <div class="price-info">
+                                <span class="price-range">₪200 - ₪450</span>
+                                <span class="price-note">כולל פתיונות לקן האם</span>
+                            </div>
+                            <div class="action-info">
+                                <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="ants">
+                                    הצעת מחיר
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-row">
+                            <div class="service-info">
+                                <div class="service-info__icon">🐭</div>
+                                <div>
+                                    <h4>עכברים וחולדות</h4>
+                                    <p>לכידה וסגירת נקודות כניסה</p>
+                                </div>
+                            </div>
+                            <div class="price-info">
+                                <span class="price-range">₪300 - ₪800</span>
+                                <span class="price-note">תלוי במספר נקודות הכניסה</span>
+                            </div>
+                            <div class="action-info">
+                                <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="rodents">
+                                    הצעת מחיר
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-row">
+                            <div class="service-info">
+                                <div class="service-info__icon">🦟</div>
+                                <div>
+                                    <h4>פרעושים</h4>
+                                    <p>חיסול בבית ובחצר</p>
+                                </div>
+                            </div>
+                            <div class="price-info">
+                                <span class="price-range">₪350 - ₪650</span>
+                                <span class="price-note">בטוח לחיות מחמד</span>
+                            </div>
+                            <div class="action-info">
+                                <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="fleas">
+                                    הצעת מחיר
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-row">
+                            <div class="service-info">
+                                <div class="service-info__icon">🕷️</div>
+                                <div>
+                                    <h4>קרציות</h4>
+                                    <p>טיפול בחצר ובסביבה</p>
+                                </div>
+                            </div>
+                            <div class="price-info">
+                                <span class="price-range">₪400 - ₪700</span>
+                                <span class="price-note">מניעת הדבקות באדם</span>
+                            </div>
+                            <div class="action-info">
+                                <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="ticks">
+                                    הצעת מחיר
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pricing-row">
+                            <div class="service-info">
+                                <div class="service-info__icon">🕊️</div>
+                                <div>
+                                    <h4>הרחקת יונים</h4>
+                                    <p>מערכת הרחקה במרפסות</p>
+                                </div>
+                            </div>
+                            <div class="price-info">
+                                <span class="price-range">₪500 - ₪1,200</span>
+                                <span class="price-note">תלוי בגודל השטח</span>
+                            </div>
+                            <div class="action-info">
+                                <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="pigeons">
+                                    הצעת מחיר
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Services -->
+        <section class="additional-services section">
+            <div class="container">
+                <h2 class="section__title">שירותים נוספים</h2>
+
+                <div class="additional-grid">
+                    <div class="additional-service">
+                        <div class="additional-service__icon">🌿</div>
+                        <h3>ריסוס עשביה</h3>
+                        <p>הדברת עשבים שוטים מדרכים וחצרות</p>
+                        <div class="additional-service__price">₪150 - ₪400</div>
+                        <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="weed-spraying">
+                            פרטים נוספים
+                        </a>
+                    </div>
+
+                    <div class="additional-service">
+                        <div class="additional-service__icon">🍃</div>
+                        <h3>טיפול במחלות צמחים</h3>
+                        <p>זיהוי וטיפול במחלות פטרייתיות</p>
+                        <div class="additional-service__price">₪200 - ₪500</div>
+                        <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="plant-diseases">
+                            פרטים נוספים
+                        </a>
+                    </div>
+
+                    <div class="additional-service">
+                        <div class="additional-service__icon">💀</div>
+                        <h3>פינוי פגרים</h3>
+                        <p>פינוי בטוח של פגרי חיות</p>
+                        <div class="additional-service__price">₪100 - ₪300</div>
+                        <a href="tel:0528665271" class="btn btn-secondary btn-sm" data-track="click_tel" data-service="carcass-removal">
+                            פרטים נוספים
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing FAQ -->
+        <section class="pricing-faq section">
+            <div class="container">
+                <h2 class="section__title">שאלות נפוצות על מחירים</h2>
+
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>האם יש עלות לבדיקה הראשונית?</h3>
+                        <p>הבדיקה הראשונית חינמית לגמרי וללא התחייבות. אנו מגיעים, בודקים את המצב ונותנים הצעת מחיר מדויקת.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>מה כלול במחיר הטיפול?</h3>
+                        <p>המחיר כולל: בדיקה ראשונית, כל החומרים הנדרשים, ביצוע הטיפול, מעקב אחר טיפול ויעוץ למניעת חזרת המזיק.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>איך נקבע המחיר הסופי?</h3>
+                        <p>המחיר נקבע לאחר בדיקה ראשונית על בסיס: מידת הנגיעות, גודל השטח, סוג הטיפול הנדרש ורמת הקושי.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>האם יש הנחות לטיפולים חוזרים?</h3>
+                        <p>כן, ללקוחות קבועים ולטיפולים חוזרים יש הנחות מיוחדות. פרטים נוספים בשיחה הטלפונית.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>מה קורה אם הטיפול לא יעיל?</h3>
+                        <p>אנו נותנים אחריות מלאה על הטיפול. אם המזיק חוזר תוך תקופת האחריות - נבוא לטיפול נוסף ללא עלות.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>איך אפשר לשלם?</h3>
+                        <p>ניתן לשלם במזומן, בהעברה בנקאית או בכרטיס אשראי. התשלום מתבצע לאחר ביצוע הטיפול ולהנחתכם.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>מוכנים לקבל הצעת מחיר מדויקת?</h2>
+                    <p>התקשר עוד היום לבדיקה חינמית ללא התחייבות</p>
+                    <div class="cta-buttons">
+                        <a href="tel:0528665271" class="btn btn-primary btn-large" data-track="click_tel" data-source="pricing-cta">
+                            התקשר עכשיו 052-8665271
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary btn-large" data-track="nav_link_click" data-page="contact">
+                            שלח בקשת מחיר
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3>יורם בירוטקר - הדברה מקצועית</h3>
+                    <p>שירותי הדברה ברמת פרימיום</p>
+                    <div class="footer__credentials">
+                        <p>רישיון משרד להגנת הסביבה מס' 1814</p>
+                        <p>חבר בארגון המדבירים הארצי</p>
+                    </div>
+                </div>
+
+                <div class="footer__contact">
+                    <h4>פרטי קשר</h4>
+                    <p>📞 <a href="tel:0528665271" data-track="click_tel" data-source="footer">052-8665271</a></p>
+                    <p>✉️ <a href="mailto:yorambirotker81@gmail.com" data-track="click_email" data-source="footer">yorambirotker81@gmail.com</a></p>
+                </div>
+
+                <div class="footer__links">
+                    <h4>קישורים</h4>
+                    <ul>
+                        <li><a href="privacy.html" data-track="nav_link_click" data-page="privacy">מדיניות פרטיות</a></li>
+                        <li><a href="terms.html" data-track="nav_link_click" data-page="terms">תנאי שימוש</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2024 יורם בירוטקר - הדברה מקצועית. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/972528665271?text=שלום, הגעתי מדף המחירים ואשמח לקבל הצעת מחיר מותאמת אישית"
+           class="whatsapp-btn"
+           data-track="whatsapp_click"
+           data-source="pricing"
+           target="_blank"
+           rel="noopener">
+            <span class="whatsapp-icon">💬</span>
+            <span class="whatsapp-text">WhatsApp</span>
+        </a>
+    </div>
+
+    <script src="js/main.js?v=2024122301"></script>
+
+    <style>
+    /* Additional Pricing Styles */
+    .page-header__note {
+        background: var(--color-light-bg);
+        border: 1px solid var(--color-accent);
+        border-radius: var(--border-radius);
+        padding: var(--space-md);
+        margin-top: var(--space-lg);
+        text-align: center;
+    }
+
+    .notice-card {
+        background: var(--color-white);
+        padding: var(--space-xl);
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--box-shadow);
+        text-align: center;
+    }
+
+    .notice-reasons {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: var(--space-lg);
+        margin-top: var(--space-lg);
+    }
+
+    .notice-reason {
+        text-align: center;
+    }
+
+    .notice-icon {
+        font-size: 2.5rem;
+        margin-bottom: var(--space-md);
+    }
+
+    .pricing-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: var(--space-lg);
+        margin-top: var(--space-xl);
+    }
+
+    .pricing-card {
+        background: var(--color-white);
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--box-shadow);
+        overflow: hidden;
+        transition: var(--transition);
+    }
+
+    .pricing-card.featured {
+        border: 2px solid var(--color-primary);
+        transform: scale(1.02);
+    }
+
+    .pricing-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--box-shadow-lg);
+    }
+
+    .pricing-card.featured:hover {
+        transform: scale(1.02) translateY(-4px);
+    }
+
+    .pricing-card__header {
+        background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+        color: var(--color-white);
+        padding: var(--space-lg);
+        text-align: center;
+    }
+
+    .pricing-card__icon {
+        font-size: 2.5rem;
+        margin-bottom: var(--space-sm);
+    }
+
+    .pricing-card__header h3 {
+        font-size: 1.3rem;
+        margin-bottom: var(--space-xs);
+    }
+
+    .pricing-card__subtitle {
+        opacity: 0.9;
+        font-size: 0.9rem;
+    }
+
+    .pricing-card__body {
+        padding: var(--space-lg);
+    }
+
+    .pricing-card__price {
+        text-align: center;
+        margin-bottom: var(--space-lg);
+    }
+
+    .price-range {
+        font-size: 1.8rem;
+        font-weight: var(--font-weight-bold);
+        color: var(--color-primary);
+        display: block;
+    }
+
+    .price-period {
+        color: var(--color-gray);
+        font-size: 0.9rem;
+    }
+
+    .pricing-card__features ul {
+        margin: var(--space-md) 0;
+    }
+
+    .pricing-card__features li {
+        padding: var(--space-xs) 0;
+        color: var(--color-gray-dark);
+    }
+
+    .pricing-factors {
+        background: var(--color-light-bg);
+        padding: var(--space-md);
+        border-radius: var(--border-radius);
+        margin-top: var(--space-md);
+        font-size: 0.9rem;
+        color: var(--color-gray);
+    }
+
+    .pricing-card__footer {
+        padding: var(--space-lg);
+        text-align: center;
+        border-top: 1px solid #eee;
+    }
+
+    .pricing-table {
+        background: var(--color-white);
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--box-shadow);
+        overflow: hidden;
+    }
+
+    .pricing-table__header {
+        background: var(--color-light-bg);
+        padding: var(--space-lg);
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+
+    .pricing-row {
+        display: grid;
+        grid-template-columns: 1fr auto auto;
+        gap: var(--space-md);
+        align-items: center;
+        padding: var(--space-lg);
+        border-bottom: 1px solid #eee;
+    }
+
+    .pricing-row:last-child {
+        border-bottom: none;
+    }
+
+    .service-info {
+        display: flex;
+        align-items: center;
+        gap: var(--space-md);
+    }
+
+    .service-info__icon {
+        font-size: 1.8rem;
+    }
+
+    .service-info h4 {
+        color: var(--color-primary);
+        margin-bottom: var(--space-xs);
+    }
+
+    .service-info p {
+        color: var(--color-gray);
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    .price-info {
+        text-align: center;
+    }
+
+    .price-info .price-range {
+        font-size: 1.2rem;
+        font-weight: var(--font-weight-bold);
+        color: var(--color-primary);
+        display: block;
+    }
+
+    .price-note {
+        font-size: 0.8rem;
+        color: var(--color-gray);
+    }
+
+    .btn-sm {
+        padding: var(--space-xs) var(--space-md);
+        font-size: 0.9rem;
+    }
+
+    .additional-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: var(--space-lg);
+        margin-top: var(--space-xl);
+    }
+
+    .additional-service {
+        background: var(--color-white);
+        padding: var(--space-lg);
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        text-align: center;
+        transition: var(--transition);
+    }
+
+    .additional-service:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--box-shadow-lg);
+    }
+
+    .additional-service__icon {
+        font-size: 2.5rem;
+        margin-bottom: var(--space-md);
+    }
+
+    .additional-service h3 {
+        color: var(--color-primary);
+        margin-bottom: var(--space-sm);
+    }
+
+    .additional-service p {
+        color: var(--color-gray);
+        margin-bottom: var(--space-md);
+    }
+
+    .additional-service__price {
+        font-size: 1.2rem;
+        font-weight: var(--font-weight-bold);
+        color: var(--color-secondary);
+        margin-bottom: var(--space-md);
+    }
+
+    .faq-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: var(--space-lg);
+        margin-top: var(--space-xl);
+    }
+
+    .faq-item {
+        background: var(--color-white);
+        padding: var(--space-lg);
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+    }
+
+    .faq-item h3 {
+        color: var(--color-primary);
+        margin-bottom: var(--space-md);
+        font-size: 1.1rem;
+    }
+
+    .faq-item p {
+        color: var(--color-gray-dark);
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .pricing-row {
+            grid-template-columns: 1fr;
+            gap: var(--space-sm);
+            text-align: center;
+        }
+
+        .service-info {
+            justify-content: center;
+        }
+
+        .pricing-cards {
+            grid-template-columns: 1fr;
+        }
+
+        .additional-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .faq-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    </style>
+</body>
+</html>
