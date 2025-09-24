@@ -54,7 +54,7 @@
 - **Started business:** ~2009 (inferred from "15 years experience")
 - **Business type:** Independent contractor/sole proprietorship
 - **Target market:** Premium clients who don't compromise on quality
-- **Geographic coverage:** Central Israel (Tel Aviv area, Sharon, Shfela, Jerusalem suburbs)
+- **Geographic coverage:** South-Central Israel (Ashkelon to Tel Aviv corridor)
 
 ### Pricing Philosophy
 - **Not the cheapest option:** Premium pricing for quality service
@@ -121,30 +121,30 @@
 - **Plant disease treatment:** ₪200-500
 - **Carcass removal:** ₪100-300
 
-### Service Areas (ASSUMED COVERAGE)
+### Service Areas (UPDATED COVERAGE - ASHKELON TO TEL AVIV)
 #### Central Israel
 - Tel Aviv & Metropolitan area
 - Ramat Gan & Givatayim
 - Holon & Bat Yam
-- Ramat Hasharon & Herzliya
+- Herzliya & Ramat Hasharon
 
-#### Sharon Region
-- Netanya area
-- Kfar Saba & Ra'anana
-- Hod Hasharon
-- Afeka & Rosh Ha'ayin
-
-#### Shfela Region
+#### Northern Shfela
 - Rehovot & Nes Ziona
 - Rishon LeZion
-- Yavne & Ashdod
+- Petach Tikva & Elad
 - Modiin area
 
-#### Jerusalem Suburbs
-- Jerusalem
-- Beit Shemesh
-- Maale Adumim
-- Abu Gosh area
+#### Southern Shfela
+- Gedera & Kiryat Ekron
+- Yavne & Gan Yavne
+- Gderot & Bitan Aharon
+- Kiryat Malachi area
+
+#### Southern Region
+- Ashdod & Naot Mordechai
+- Ashkelon & Ashkelon Coast
+- Sderot & Netivot
+- Kiryat Gat area
 
 ### Emergency Services
 - **24/7 availability:** For urgent cases (additional charge)
@@ -332,6 +332,13 @@
 - Changed from "95% success rate" to "100% satisfaction rate" across all pages
 - Maintained 2000+ satisfied customers statistic
 - Added business-specific success metrics and testimonials
+
+### Updated Service Areas (NEW)
+- Changed primary service area from "Central Israel + Jerusalem" to "Ashkelon to Tel Aviv corridor"
+- Focused on south-central coastal region and inland areas
+- Updated all references across website pages (about.html, faq.html, business.html)
+- Removed Jerusalem and northern Sharon region coverage
+- Added southern communities: Ashkelon, Sderot, Netivot, Kiryat Gat
 
 ---
 
